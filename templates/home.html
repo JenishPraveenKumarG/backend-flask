@@ -1,0 +1,10 @@
+{% extends "base_2.html" %}
+
+{% block title %} 
+    Home Page 
+{% endblock %}
+
+{% block content %}
+    <h1>Home Page</h1>
+    <img src="{{ url_for('static', filename='images/img.jpg') }}" alt="Image" width="200" height="150">
+{% endblock %}
